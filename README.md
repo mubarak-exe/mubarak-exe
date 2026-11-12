@@ -1,78 +1,90 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Mubarak Shikalgar. Machine learning research in Waterloo, Ontario: travel-time prediction, digital twins and LLM agents for urban mobility. Open to ML and research roles in Canada." src="assets/banner-light.svg" width="100%">
-</picture>
+# Mubarak Shikalgar
 
-I'm a machine learning researcher at the SPIN Lab, Wilfrid Laurier University. I work on travel-time prediction and digital twins for urban mobility, from raw taxi GPS traces to systems people can use: a graph model that predicts travel time for every road segment, a taxi dispatch simulation I helped build, and an LLM agent that sets up simulations from plain language.
+Machine learning researcher · specializing in transportation and urban mobility<br>
+[LinkedIn](https://linkedin.com/in/mubaraks) · [Master's thesis](https://scholars.wlu.ca/etd/2908/) · [LinkETA preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379984)
 
-Looking for machine learning and research roles in Canada · [LinkedIn](https://linkedin.com/in/mubaraks)
-
-### Featured work
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379984"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-linketa-dark.svg"><img width="49%" alt="LinkETA, Graph ML, 2025 to 2026. A Graph Transformer that predicts travel time for every road segment, and adapts to a new city from 25 trips. 23.7% lower error than Baidu's DuETA, on average. Opens the preprint." src="assets/card-linketa-light.svg"></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-text2simulation-dark.svg"><img width="49%" alt="Text2Simulation, LLM agent, 2026. A GPT-4o and LangGraph agent that sets up digital-twin simulations from plain language, and refuses what it can't run. Its verifier caught 96.7% of unsupported requests with zero false alarms. Paper in IEEE Xplore." src="assets/card-text2simulation-light.svg"></picture>
-</p>
-<p>
-  <a href="https://github.com/mubarak-exe/DTUMOS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-dtumos-dark.svg"><img width="49%" alt="DTUMOS, digital twin, 2025 to now. An open-source digital twin for urban mobility. I added traffic-aware ETAs and helped build its taxi dispatch, which runs in 1-minute steps with matching solved as MIP in OR-Tools. Opens the repository." src="assets/card-dtumos-light.svg"></picture></a>
-  <a href="https://github.com/mubarak-exe/Fake_News_Detection_Using_Hybrid_BiLSTM_TCN_Model_With_Attention_Mechanism"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-fake-news-dark.svg"><img width="49%" alt="Fake news detection, NLP, 2021 to 2022. A hybrid BiLSTM-TCN model with attention, my B.Tech. final-year project. SGU Best Project Award 2021 to 2022, published in IEEE Xplore in 2023. Opens the repository." src="assets/card-fake-news-light.svg"></picture></a>
-</p>
+## About
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg">
-  <img alt="Toolkit: Graph Transformers, spatiotemporal prediction, meta-learning, LLM agents, LangGraph, map matching, OpenStreetMap, OR-Tools, mixed-integer programming, PyTorch, digital twins, geospatial ETL." src="assets/toolkit-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map-dark.svg">
+  <img align="right" width="320" alt="Illustration of a road network whose roads turn green, amber and red as traffic builds and clears through a day." src="assets/map-light.svg">
 </picture>
 
-<details>
-<summary><b>How I work</b> · five rules, each with the result behind it</summary>
-<br>
+I'm a machine learning researcher in Waterloo, Ontario. I design and train models for complex, real-world data such as graphs, time series, text and multimodal signals. My work covers:
 
-1. **Start with the raw trace.** A model inherits every flaw in its data, so I clean and structure data myself. For LinkETA, a geospatial ETL pipeline turned raw taxi GPS trips into 8M+ road-segment data points.
-2. **Compare against the strongest baseline.** On average, LinkETA had 23.7% lower error than Baidu's DuETA and 17.6% lower than Uber's DeeprETA.
-3. **Design for the city with no data.** With only 25 trips per new city, my meta-learning method cut road-segment error by up to 14.2%.
-4. **Put the model inside a system.** LinkETA supplies traffic-aware travel times inside the DTUMOS digital twin, which runs in 1-minute steps.
-5. **Check before you trust.** Text2Simulation's verifier caught 96.7% of unsupported requests with zero false alarms.
+- Deep learning: Transformers, GNNs, LSTMs, CNNs (PyTorch, TensorFlow)
+- Graph ML: spatiotemporal forecasting on graphs
+- LLM agents and NLP: LangGraph, LangChain, agent output verification
+- Few-shot learning: meta-learning with MAML and Reptile
+- Optimization: mixed-integer programming, genetic algorithms, Google OR-Tools
+- Big data: large-scale and geospatial ETL, Hadoop, Airflow
 
-</details>
+My specialty is transportation and urban mobility. At the SPIN Lab, Wilfrid Laurier University, I research travel-time estimation, spatiotemporal modelling of road networks, and digital twins that simulate how a city moves. I've also applied machine learning to NLP, affective computing and computer vision, and I spent two years as an IT consultant in Mumbai leading web product development. I hold a Master of Applied Computing from Wilfrid Laurier University.
 
-<details>
-<summary><b>How my projects connect</b> · diagram</summary>
-<br>
+Currently looking for machine learning and research roles in Canada.
 
-```mermaid
-flowchart LR
-    gps["Taxi GPS traces"] --> etl["Geospatial ETL<br/>map matching"]
-    etl --> eta["LinkETA<br/>travel time per road segment"]
-    eta --> twin["DTUMOS digital twin<br/>minute-by-minute dispatch"]
-    req["Plain-language request"] --> agent["Text2Simulation agent<br/>GPT-4o + LangGraph"]
-    agent --> check{"Verifier"}
-    check -- supported --> twin
-    check -- unsupported --> stop["Refused with a reason"]
-```
+## Experience
 
-</details>
+**Research**
+- [SPIN Lab](https://www.linkedin.com/company/spin-lab-wlu/posts/), Wilfrid Laurier University · **Research Assistant** · Jan 2025 – present
+  - [LinkETA](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379984) (travel-time estimation)
+  - [DTUMOS](https://github.com/mubarak-exe/DTUMOS) (digital twin for urban mobility)
+  - Text2Simulation (LLM agent for digital-twin simulations)
+  - Affect recognition for dementia care (systematic review, with SQUAD Lab)
 
-<details>
-<summary><b>Publications and awards</b></summary>
-<br>
+**Teaching**
+- Wilfrid Laurier University · **Graduate Teaching Assistant**
+  - [CP421: Data Mining](https://academic-calendar.wlu.ca/course.php?c=72574&cal=1&d=2948&s=1118&y=90) · Fall 2025, Winter 2026
+  - [CP476: Internet Computing](https://academic-calendar.wlu.ca/course.php?c=63922&cal=1&d=2576&s=1034&y=85) · Winter 2025, Spring 2025
 
-- [Intelligent Digital Twin System for Urban Mobility](https://scholars.wlu.ca/etd/2908/). Master's thesis, Wilfrid Laurier University, 2026.
-- [LinkETA: A Multi-Relational Graph Transformer for Link-Level Travel Time Estimation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379984). Preprint, SSRN.
-- Link-Level Spatio-Temporal Travel Time Prediction for Multi-Modal Commute Trip Estimation. IEEE Xplore.
-- Text2Simulation: A Natural Language Interface for Transportation Digital Twin Systems. IEEE Xplore.
-- [Fake News Detection Using Hybrid BiLSTM-TCN Model with Attention Mechanism](https://ieeexplore.ieee.org/document/10140491). IEEE Xplore, 2023.
+**Industry**
+- Glazingshopee, Mumbai · **IT Consultant** · Jun 2022 – Jun 2024
+  - Products: [FacadeMart](https://www.facademart.com/) · Buyglass24 · EdFacade
+- [Sharp Electronics](https://www.sharpelectronics.net/), Pune · **Intern** · Jan 2021 – Feb 2021
 
-Award for Outstanding Graduate Work, Wilfrid Laurier University, Class of 2026 · $54K CAD in graduate funding and studentship · SGU Best Project Award, 2021–22
+## Education
 
-</details>
+- **[Master of Applied Computing](https://www.wlu.ca/programs/science/graduate/applied-computing-mac/index.html)**, Wilfrid Laurier University · 2024 – 2026
+  - Thesis: [Intelligent Digital Twin System for Urban Mobility](https://scholars.wlu.ca/etd/2908/)
+  - Supervisor: [Dr. Sukhjit Singh Sehra](https://www.wlu.ca/academics/faculties/faculty-of-science/faculty-profiles/sukhjit-sehra/index.html) · Co-supervisor: Dr. Emad A. Mohammed
+- **B.Tech. in Computer Science and Engineering**, Sanjay Ghodawat University · 2018 – 2022
+  - Final-year project: [Fake News Detection using Hybrid BiLSTM-TCN Model with Attention Mechanism](https://github.com/mubarak-exe/Fake_News_Detection_Using_Hybrid_BiLSTM_TCN_Model_With_Attention_Mechanism)
 
-<details>
-<summary><b>Full toolkit</b></summary>
-<br>
+## Honors and awards
 
-- **Machine learning:** Python, R, Transformers, GNN, CNN, LSTM, NLP, DQN, LLMs, spatiotemporal prediction, meta-learning, reinforcement learning, recommendation systems, clustering, LangChain, LangGraph
-- **Maps and geospatial:** OSRM, OpenStreetMap, map matching, OR-Tools, GeoPandas, Shapely, Folium, simulation
-- **Libraries:** NumPy, Pandas, SciPy, scikit-learn, PyTorch, TensorFlow, Keras, PyG, Matplotlib, Seaborn
-- **Data and engineering:** SQL (MySQL), MongoDB, Hadoop, CUDA, Airflow, Git, AWS, Docker, Jira, Agile, PRISMA reviews, unit testing, QA testing
+- Award for Outstanding Graduate Work, Wilfrid Laurier University · 2026
+- Graduate Studentship, Wilfrid Laurier University · 2025–2026
+- Graduate Student Guaranteed Funding, Wilfrid Laurier University · 2025–2026
+- SGU Best Project Award, Sanjay Ghodawat University · 2021–2022
 
-</details>
+## Tech stack
+
+**Languages** <sub>· Python and Java link to my NPTEL certificates</sub><br>
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS74S2322132309025783) [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS08S1PC867362) ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+
+**Machine learning and LLMs**<br>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![PyG](https://img.shields.io/badge/PyG-3C2179?style=for-the-badge&logo=pyg&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+
+**Maps and geospatial**<br>
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white) ![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4?style=for-the-badge&logo=google&logoColor=white) ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=geopandas&logoColor=white)
+
+**Big data and engineering**<br>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge)
+
+## Professional affiliations
+
+- Member, Canadian Artificial Intelligence Association (CAIAC) · 2026 – present
+- Member, ML Collective (MLC) · 2026 – present
+
+## Publications
+
+- [Intelligent Digital Twin System for Urban Mobility](https://scholars.wlu.ca/etd/2908/)
+- [LinkETA: A Multi-Relational Graph Transformer for Link-Level Travel Time Estimation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379984)
+- Link-Level Spatio-Temporal Travel Time Prediction for Multi-Modal Commute Trip Estimation (IEEE WF-IoT 2026)
+- Text2Simulation: A Natural Language Interface for Transportation Digital Twin Systems (IEEE GESS 2026)
+- Affect Recognition in Socially Assistive Robots for Dementia Care: A Systematic Review (under review)
+- [Fake News Detection using Hybrid BiLSTM-TCN Model with Attention Mechanism](https://ieeexplore.ieee.org/document/10140491)
+
+## Quick links
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/mubaraks) [![Website](https://img.shields.io/badge/mubaraks.site-0A1828?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mubaraks.site)
