@@ -87,4 +87,4 @@ Currently looking for machine learning and research roles in Canada.
 
 ## Quick links
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/mubaraks) [![Website](https://img.shields.io/badge/mubaraks.site-0A1828?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mubaraks.site)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/mubaraks) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Mubarak-Shikalgar) [![Website](https://img.shields.io/badge/mubaraks.site-0A1828?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mubaraks.site)
