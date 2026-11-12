@@ -28,9 +28,12 @@ Currently looking for machine learning and research roles in Canada.
 **Research**
 - [SPIN Lab](https://www.linkedin.com/company/spin-lab-wlu/posts/), Wilfrid Laurier University · **Research Assistant** · Jan 2025 – present
   - [LinkETA](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379984) (travel-time estimation)
+  - MetaETA (meta-learning for travel-time estimation in cities with no data)
+  - Multimodal ETA (travel-time estimation for multi-modal commute trips)
   - [DTUMOS](https://github.com/mubarak-exe/DTUMOS) (digital twin for urban mobility)
   - Text2Simulation (LLM agent for digital-twin simulations)
-  - Affect recognition for dementia care (systematic review, with SQUAD Lab)
+  - Affect recognition for dementia care (systematic PRISMA review, with SQUAD Lab)
+  - Affect recognition by socially assistive robots
 
 **Teaching**
 - Wilfrid Laurier University · **Graduate Teaching Assistant**
