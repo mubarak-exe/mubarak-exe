@@ -32,8 +32,7 @@ Currently looking for machine learning and research roles in Canada.
   - Multimodal ETA (travel-time estimation for multi-modal commute trips)
   - [DTUMOS](https://github.com/mubarak-exe/DTUMOS) (digital twin for urban mobility)
   - Text2Simulation (LLM agent for digital-twin simulations)
-  - Affect recognition for dementia care (systematic PRISMA review, with SQUAD Lab)
-  - Affect recognition by socially assistive robots
+  - Affect recognition by socially assistive robots (systematic PRISMA review, with SQUAD Lab)
 
 **Teaching**
 - Wilfrid Laurier University · **Graduate Teaching Assistant**
