@@ -48,7 +48,7 @@ Currently looking for machine learning and research roles in Canada.
 
 - **[Master of Applied Computing](https://www.wlu.ca/programs/science/graduate/applied-computing-mac/index.html)**, Wilfrid Laurier University · 2024 – 2026
   - Thesis: [Intelligent Digital Twin System for Urban Mobility](https://scholars.wlu.ca/etd/2908/)
-  - Supervisor: [Dr. Sukhjit Singh Sehra](https://www.wlu.ca/academics/faculties/faculty-of-science/faculty-profiles/sukhjit-sehra/index.html) · Co-supervisor: Dr. Emad A. Mohammed
+  - Supervisor: [Dr. Sukhjit Singh Sehra](https://www.wlu.ca/academics/faculties/faculty-of-science/faculty-profiles/sukhjit-sehra/index.html) · Co-supervisor: [Dr. Emad A. Mohammed](https://wlu.ca/academics/faculties/faculty-of-science/faculty-profiles/emad-mohammed/index.html)
 - **B.Tech. in Computer Science and Engineering**, Sanjay Ghodawat University · 2018 – 2022
   - Final-year project: [Fake News Detection using Hybrid BiLSTM-TCN Model with Attention Mechanism](https://github.com/mubarak-exe/Fake_News_Detection_Using_Hybrid_BiLSTM_TCN_Model_With_Attention_Mechanism)
 
